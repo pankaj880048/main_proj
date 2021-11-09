@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CA2</string>
+    <string name="hint"><font size="15">Enter email, phone, or Skype</font></string>
+</resources>

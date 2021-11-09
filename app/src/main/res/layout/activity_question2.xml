@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff00"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Editext"
+        android:textColor="#FF0000"
+        android:textColorHint="#ff0000"/>
+    <Button
+        android:id="@+id/btn_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:textColor="#FF0000"
+        android:layout_below="@+id/et_edittext"/>
+    <RadioGroup
+        android:id="@+id/rg_radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_button">
+        <RadioButton
+            android:id="@+id/rb_radiobutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Radio Button 1"
+            android:textColor="#FF0000"
+            android:layout_centerHorizontal="true"/>
+        <RadioButton
+            android:id="@+id/rb_radiobutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Radio Button 2"
+            android:textColor="#FF0000"
+            android:layout_centerHorizontal="true"/>
+
+    </RadioGroup>
+
+
+    <CheckBox
+        android:id="@+id/cb_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rg_radiogroup"
+        android:layout_centerHorizontal="true"
+        android:text="Checkbox"
+        android:textColor="#ff0000"/>
+
+
+
+
+
+</RelativeLayout>
